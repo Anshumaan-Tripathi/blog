@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    font-size: 0.6em;
+}
+
+body{
+    padding: 10px 10px 10px 10px;
+    font-size: 1rem;
+    color: #444444;
+    max-width: 1200px; 
+    margin: 20px  auto;
+    width: auto
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: #222222;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+h2{
+    font-size: 2.15rem;
+    text-align: center;
+}
+h3{
+    font-size: 1.75rem;
+    text-align: center;
+}
+h4{
+    font-size: 1.5rem;
+    text-align: center;
+}
+h5{
+    font-size: 1.25rem;
+    text-align: center;
+}
+h6{
+    font-size: 1rem;
+    text-align: center;
+}
+
+a{
+    color: rgb(93, 176, 253);
+    text-decoration: none;
+    &:hover, :focus{
+        color: rgb(41, 150, 252);
+    }
+}
